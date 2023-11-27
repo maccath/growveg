@@ -1,0 +1,33 @@
+{
+  "name": "maccath/growveg",
+  "description": "Wrapper for GrowVeg REST API",
+  "type": "library",
+  "keywords": [
+    "REST",
+    "API",
+    "wrapper",
+    "GrowVeg"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Katy Ereira",
+      "email": "katy.ereira@gmail.com",
+      "homepage": "https://github.com/maccath"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Maccath\\GrowVeg\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Maccath\\GrowVeg\\Tests\\": "tests/"
+    }
+  }
+}
