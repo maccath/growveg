@@ -16,6 +16,6 @@ class PlantCollectionTest extends TestCase
         $collection = new PlantCollection();
 
         $this->assertInstanceOf(CollectionInterface::class, $collection);
-        $this->assertSame('no', $collection->getType());
+        $this->assertSame(Plant::class, $collection->getType());
     }
 }
