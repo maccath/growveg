@@ -15,6 +15,11 @@
         <exclude name="PSR12.Files.DeclareStatement.SpaceFoundBeforeSemicolon"/>
     </rule>
 
+    <rule ref="PSR1">
+        <!-- Currently broken -->
+        <exclude name="PSR1.Files.SideEffects.FoundWithSymbols"/>
+    </rule>
+
     <!-- Warn about TODOs and FIXMEs in code. -->
     <rule ref="Generic.Commenting.Fixme"/>
     <rule ref="Generic.Commenting.Todo"/>
