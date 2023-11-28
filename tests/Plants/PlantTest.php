@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Plants;
+namespace Maccath\GrowVeg\Tests\Plants;
 
 use Maccath\GrowVeg\Plants\Plant;
 use PHPUnit\Framework\TestCase;
